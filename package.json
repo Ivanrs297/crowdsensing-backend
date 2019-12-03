@@ -1,13 +1,17 @@
 {
   "name": "crowdsensing-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "API server for Crowdsensing",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/"
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "npm": "5.6.0",
+    "node": "8.11.1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ivanrs",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
