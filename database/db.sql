@@ -1,7 +1,7 @@
 -- CREATE DATABASE database_crowdsensing;
 
 -- use database_crowdsensing;
-use heroku_f0851cd0e4a3bee
+use heroku_f0851cd0e4a3bee;
 
 CREATE TABLE User (
     id INT(11) NOT NULL AUTO_INCREMENT,

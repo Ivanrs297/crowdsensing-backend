@@ -19,12 +19,12 @@ router.post('/signin', (req, res, next) => {
 })
 
 router.get('/loggedIn', isLoggedIn, (req, res) => {
-    res.status(200).send('Logged In');
+    res.status(200).send({success: true});
 })
 
 
 router.get('/failureSign', (req, res) => {
-    res.status(401).send('Unauthorized');
+    res.status(401).send({success: false});
 })
 
 router.get('/logout', (req, res) => {
